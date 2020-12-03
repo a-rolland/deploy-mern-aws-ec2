@@ -7,6 +7,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const helmet = require('helmet');
 const config = require('./config/key');
+require("dotenv").config();
 
 const app = express();
 
